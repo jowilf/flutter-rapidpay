@@ -1,0 +1,44 @@
+name: rapidpay
+description: A new Flutter application.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_statusbarcolor: ^0.2.3
+  flutter_masked_text: ^0.8.0
+  cupertino_icons: ^0.1.3
+  email_validator: ^1.0.0
+  fluttertoast: ^4.0.0
+  progress_dialog: ^1.2.2
+  pin_code_fields: ^2.5.1
+  libphonenumber: ^1.0.1
+  badges: ^1.1.1
+  material_design_icons_flutter: ^4.0.5345
+  qrscan: ^0.2.17
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/
+    - assets/images/
+
+  fonts:
+    - family: AirbnbCereal-Book
+      fonts:
+        - asset: assets/fonts/AirbnbCereal-Book.ttf
+    - family: AirbnbCereal-Light
+      fonts:
+        - asset: assets/fonts/AirbnbCereal-Light.ttf
+    - family: AirbnbCereal-Medium
+      fonts:
+        - asset: assets/fonts/AirbnbCereal-Medium.ttf
